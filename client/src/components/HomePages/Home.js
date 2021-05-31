@@ -5,7 +5,7 @@ const Home = ({ getAll,input,setInput}) => {
     <form className="serach-style">
       <h3>
         <img src={lolIcon} alt="lolIcon" width="50px" height="50px" />
-        League of legends Stats
+        League of legends Status
       </h3>
       <div className="input-group mb-3">
         <input type="text" className="form-control" placeholder="Summoner" onChange={event => setInput(event.target.value)}/>

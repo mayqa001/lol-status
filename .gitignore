@@ -1,4 +1,2 @@
-/src/.env
+.env
 /node_modules
-/seeds
-/config

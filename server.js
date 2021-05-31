@@ -17,9 +17,9 @@ app.use(express.static(path.join(__dirname, "client", "build")));
 
 // ...
 // Right before your app.listen(), add this:
-app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-});
+// app.get("*", (req, res) => {
+//     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+// });
 
 // sequelize.sync({force:false}).then(() => {
 //     console.log("sercer called");
@@ -28,11 +28,3 @@ app.get("*", (req, res) => {
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
 })
-
-
-app.get('/', async(req, res) => {
-    res.json({
-      message: 'hello world'
-    })
-  })
-  

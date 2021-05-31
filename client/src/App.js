@@ -3,6 +3,7 @@ import Home from "./components/HomePages/Home";
 import Summoner from "./components/SummonerPage/Summoner";
 import Loading from "./components/Loading/Loading";
 import Navbar from "./components/Navbar/Navbar";
+import Login from "./components/Login/Login";
 const axios = require("axios");
 
 import { useEffect, useState } from "react";
@@ -75,6 +76,13 @@ function App() {
                 <Loading />
               )
             }
+          />
+           <Route
+            path="/login"
+            exact
+            render={() => (
+              <Login  />
+            )}
           />
         </Switch>
       </div>
