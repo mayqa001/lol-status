@@ -6,10 +6,7 @@ As a player, I want to view my friend’s status such as win, lose and match his
 
 
 ## Table of Contents
-* [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
 
     
 ## Usage
